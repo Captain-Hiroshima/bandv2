@@ -1,0 +1,286 @@
+html,
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+#band_logo {
+  background-color: white;
+  width: 50px;
+  transition: 2s;
+}
+#band_logo:hover {
+  transition: 2s;
+  background-color: red;
+  width: 50px;
+}
+
+.navitems {
+  float: left;
+}
+
+.navtext {
+  text-align: center;
+  padding: 13px 22px;
+  color: white;
+  background-color: black;
+  transition: 2s;
+}
+.navtext:hover {
+  background-color: red;
+  color: white;
+  transition: 2s;
+  padding: 13px 40px;
+}
+
+#carouselExampleSlidesOnly {
+  position: static;
+  width: 100%;
+}
+.carousel-item img {
+  max-height: 700px;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+}
+
+.band {
+  width: 50%;
+  margin: 50px auto;
+}
+
+@media only screen and (max-width: 700px) {
+  .band {
+    width: 70%;
+    margin: 30px auto;
+  }
+  .text {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .band {
+    width: 80%;
+    margin: 30px auto;
+  }
+  .text {
+    text-align: center;
+  }
+}
+
+.band_members {
+  width: 100%;
+  height: 10px;
+  box-shadow: 7px 7px 7px;
+  border-radius: 25px;
+  height: 170px;
+}
+
+.member {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 33.32%;
+  float: left;
+  align-content: center;
+  color: black;
+}
+
+.member img {
+  width: 80%;
+  border-radius: 10px;
+  background-color: linear-gradient(black, black);
+}
+
+.tour {
+  margin: 50px auto;
+  background-color: black;
+  width: 100%;
+  height: 650px;
+}
+
+.soldout {
+  width: 50%;
+  background-color: white;
+  margin: 0 auto;
+  color: gray;
+  border: solid gray 0.01px;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+.soldout p {
+  margin: 0 0;
+  padding: 7px;
+}
+
+.locations {
+  margin: 50px auto;
+  width: 50%;
+}
+
+.places-container {
+  height: 10px;
+}
+.places {
+  width: 30%;
+  margin: 0 12.5px;
+  background-color: white;
+  float: left;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px;
+}
+
+.places img {
+  width: 100%;
+  max-height: 150px;
+  border-radius: 5px 5px 0 0;
+  -webkit-filter: brightness(60%);
+  transition: 2s;
+}
+
+.places img:hover {
+  -webkit-filter: brightness(100%);
+  transition: 2s;
+  transform: scale(2);
+  z-index: 100;
+  position: relative;
+}
+
+.city-name {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.date {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: whitesmoke;
+}
+
+.places-text {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.sold {
+  background-color: orangered;
+  color: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.contact {
+  width: 100%;
+  height: 300px;
+}
+.form-section {
+  margin: 0 auto;
+  width: 50%;
+  height: 100px;
+}
+
+.sec-left-right {
+  width: 50%;
+  height: 10px;
+  float: left;
+}
+.content {
+}
+.icon {
+}
+
+.content-container {
+  padding-top: 30px;
+}
+
+.content-text {
+  margin: 0;
+  padding-top: 0px;
+  float: left;
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(54, 50, 50);
+}
+
+svg {
+  margin: 5px;
+  padding: 0;
+}
+
+span {
+  padding: 0;
+  margin: 0;
+}
+
+.content-text span {
+  vertical-align: middle;
+}
+
+.input-container {
+  padding-top: 30px;
+  width: 100%;
+}
+.first-layer {
+  text-align: left;
+  vertical-align: middle;
+  outline: none;
+  border: 1px solid rgb(199, 191, 191);
+  padding: 5px 0px;
+  margin-top: 8px;
+  width: 49.3%;
+}
+.second-layer {
+  width: 100%;
+  margin-top: 8px;
+  vertical-align: middle;
+  outline: none;
+  border: 1px solid rgb(199, 191, 191);
+  padding: 5px 0px;
+  margin-top: 8px;
+}
+
+.submit {
+  margin-top: 8px;
+  float: right;
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  transition: 2s;
+  border: transparent;
+}
+
+.submit:hover {
+  background-color: white;
+  color: black;
+  transition: 2;
+  border: thin solid black;
+}
